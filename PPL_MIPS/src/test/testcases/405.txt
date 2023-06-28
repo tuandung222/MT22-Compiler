@@ -1,0 +1,12 @@
+
+            main : function void(){
+                printInteger(foo());
+            }  
+            foo: function integer(){
+                a: integer = 1;
+                for (a = 1, a < 100, a * 2) {
+                    if (a > 16) break;
+                }
+                return a;
+            }  
+        
